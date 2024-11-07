@@ -1,14 +1,16 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import AboutSection from '../sections/AboutSection.astro';
+import ContactDetails from '../sections/ContactDetails.astro';
+import ContactForm from '../sections/ContactForm.astro';
 import ContactSection from '../sections/ContactSection.astro';
 import PageTitle from '../sections/PageTitle.astro';
 ---
 
 <Layout title="Audacity Media">
   <main>
-    <PageTitle pageTitle="About Us" />
-
-    <ContactSection />
+    <PageTitle pageTitle="Contact Us" />
+    <ContactDetails />
+    <ContactForm />
   </main>
 </Layout>
