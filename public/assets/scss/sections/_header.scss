@@ -189,18 +189,19 @@
   // 0.842vw
   background: rgba(255, 255, 255, 0.5);
   backdrop-filter: blur(75px);
-  border-radius: 0px 0px 20px 20px;
+  // border-radius: 0px 0px 20px 20px;
+  border-radius: 0px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   box-shadow: 0 0 15px rgb(0 0 0 / 8%);
 
   @include xxl {
-    inset: 0 60px auto;
+    // inset: 0 60px auto;
   }
 
   @include xl {
-    inset: 0 40px auto;
+    // inset: 0 40px auto;
   }
 
   @include lg {
@@ -213,7 +214,7 @@
   }
 
   @include sm {
-    inset: 0 20px auto;
+    // inset: 0 20px auto;
   }
 
   @include xxs {

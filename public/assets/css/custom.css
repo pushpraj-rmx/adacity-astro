@@ -1,0 +1,44 @@
+.jo-header {
+  border-radius: 0px;
+  background-color: #fff;
+  padding: 0 1.963vw;
+  height: 80px;
+}
+
+.jo-banner {
+  background: #fefcfc !important;
+}
+
+.jo-banner__title {
+  color: #000;
+}
+
+.jo-header-nav nav a:hover {
+  text-decoration: underline #0d6efd;
+}
+
+.relative:hover {
+  text-decoration: underline #0d6efd;
+}
+
+@media screen and (max-width: 1399px) {
+  .jo-header {
+    inset: 0 0px auto;
+  }
+}
+
+.jo-header-nav nav a {
+  font-size: clamp(16px, 0.833vw, 16px);
+}
+
+.jo-container {
+  background-color: #edecec;
+}
+
+.Services-btn {
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: space-between !important;
+  gap: 6px !important;
+  align-items: center !important;
+}

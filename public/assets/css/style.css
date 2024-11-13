@@ -47,7 +47,8 @@ CSS INDEX
   --black: #000;
   --white: #fff;
   --tt-pink: #1d21ff;
-  --tt-gold: #fb32fa;
+  /* --tt-gold: #fb32fa; */
+  --tt-gold: #1d21ff;
   --tt-gradient-1: linear-gradient(90deg, var(--tt-pink) 0%, var(--tt-gold) 100%);
   --font-inter: 'Inter', sans-serif;
   --plyr-color-main: var(--ttRed);
@@ -135,6 +136,7 @@ input::-webkit-inner-spin-button {
 /* Firefox */
 input[type='number'] {
   -moz-appearance: textfield;
+  appearance: textfield;
 }
 
 input[type='radio']:checked + span::after {
