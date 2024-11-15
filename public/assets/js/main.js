@@ -194,15 +194,15 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
     breakpoints: {
       0: {
-        slidesPerView: 3,
+        slidesPerView: 1,
         spaceBetween: 50,
       },
       480: {
-        slidesPerView: 4,
+        slidesPerView: 2,
         spaceBetween: 60,
       },
       768: {
-        slidesPerView: 5,
+        slidesPerView: 3,
         spaceBetween: 60,
       },
       992: {
@@ -238,19 +238,19 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
     breakpoints: {
       0: {
-        slidesPerView: 3,
+        slidesPerView: 1,
         spaceBetween: 50,
       },
       480: {
-        slidesPerView: 4,
+        slidesPerView: 1,
         spaceBetween: 60,
       },
       768: {
-        slidesPerView: 5,
+        slidesPerView: 2,
         spaceBetween: 60,
       },
       992: {
-        slidesPerView: 4,
+        slidesPerView: 3,
         spaceBetween: 60,
       },
       1200: {
